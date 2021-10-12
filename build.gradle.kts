@@ -34,6 +34,8 @@ intellij {
 
     // Plugin Dependencies. Uses `platformPlugins` property from the gradle.properties file.
     plugins.set(properties("platformPlugins").split(',').map(String::trim).filter(String::isNotEmpty))
+
+    localPath.set(properties("StudioRunPath"))
 }
 
 // Configure Gradle Changelog Plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
@@ -60,6 +62,10 @@ tasks {
         withType<KotlinCompile> {
             kotlinOptions.jvmTarget = it
         }
+    }
+
+    instrumentCode {
+        compilerVersion.set("203.7717.56") //현재 사용중인 Android Studio Version
     }
 
     wrapper {

@@ -1,4 +1,4 @@
-package com.github.ridsync.androidmvvmplugintemplate
+package com.github.ridsync.androidmvvmtemplate
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

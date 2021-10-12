@@ -1,1 +1,1 @@
-rootProject.name = "android-mvvm-plugin-template"
+rootProject.name = "android-mvvm-devoks-plugin-template"

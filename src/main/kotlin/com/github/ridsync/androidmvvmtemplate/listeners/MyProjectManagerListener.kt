@@ -1,9 +1,9 @@
-package com.github.ridsync.androidmvvmplugintemplate.listeners
+package com.github.ridsync.androidmvvmtemplate.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.ridsync.androidmvvmplugintemplate.services.MyProjectService
+import com.github.ridsync.androidmvvmtemplate.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

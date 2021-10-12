@@ -1,7 +1,7 @@
-package com.github.ridsync.androidmvvmplugintemplate.services
+package com.github.ridsync.androidmvvmtemplate.services
 
 import com.intellij.openapi.project.Project
-import com.github.ridsync.androidmvvmplugintemplate.MyBundle
+import com.github.ridsync.androidmvvmtemplate.MyBundle
 
 class MyProjectService(project: Project) {
 
